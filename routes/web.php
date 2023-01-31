@@ -2,9 +2,13 @@
 
 use App\Http\Controllers\Admin\PostController;
 use App\Http\Controllers\Auth\LoginController;
-use App\Http\Controllers\CategoryController;
-use App\Http\Controllers\HomeController;
-use App\Http\Controllers\PageController;
+
+use App\Http\Controllers\{
+    CategoryController,
+    HomeController,
+    PageController,
+};
+
 use Illuminate\Support\Facades\Route;
 
 

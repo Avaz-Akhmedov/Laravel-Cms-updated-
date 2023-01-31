@@ -10,6 +10,8 @@ class Post extends Model
     use HasFactory;
     protected  $fillable = ["title","category_id","content","image","is_active"];
 
+
+
     public function category(): \Illuminate\Database\Eloquent\Relations\BelongsTo
     {
         return $this->belongsTo(Category::class,"category_id");

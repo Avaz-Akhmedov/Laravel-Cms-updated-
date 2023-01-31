@@ -1,6 +1,6 @@
 
 <div class="pt-2 relative mx-auto text-gray-600">
-    <form action="{{route("home")}}">
+    <form action="{{route("posts.index")}}">
         <label>
             <input
                 value="{{request("search")}}"
